@@ -1,0 +1,12 @@
+torch
+torchvision
+timm
+pydicom
+albumentations
+scikit-learn
+pandas
+numpy
+opencv-python-headless
+gradio
+jupyter
+ipywidgets

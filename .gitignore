@@ -218,3 +218,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Medical Data & DICOMs (Never commit these!)
+data/raw/
+data/processed/
+*.dcm
+*.nii
+*.nii.gz
+*.h5
+*.npy
+
+# Model Checkpoints & Weights
+*.pth
+*.pt
+*.onnx
+checkpoints/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# Secrets & Environment Variables
+.env
